@@ -1,0 +1,301 @@
+*{
+    margin:0;
+    padding: 0;
+
+}
+a{
+    text-decoration: none;
+
+}
+body {
+    background-color: rgb(241, 241, 241);
+}
+/* Шапка */
+header{
+    background-color:rgb(241, 241, 241);
+    position: sticky;
+    top: 0px;
+    box-shadow: 0 1px 5px 1px rgb(43, 42, 42);
+    z-index: 5;
+}
+.mainhead{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 80%;
+    min-width: 1100px;
+    background-color:rgb(241, 241, 241);
+    position: sticky;
+    top: 0px;
+}
+.headbg{
+    background-color: white;
+    height: 350px;
+    display: flex;
+    flex-direction: row-reverse;
+    background-image: url("../img/bg.jpg");
+}
+.homeh{
+    display: inline-block;
+}
+.homeh:hover{
+    transform: rotate(1440deg);
+    transition: 20s;
+}
+
+
+nav{
+    margin-top: 30px;
+}
+nav  a, .promo div a{
+    margin: 0px 30px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: bold;
+    font-style: normal;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    transition: 0.7s; 
+    color: #000;
+}
+nav a:visited, .promo div a:visited{
+    color: #000;
+}
+nav a:hover, .promo div a:hover, .product a:hover, .product a:hover{
+    font-size: 1rem;
+    color: rgb(64, 117, 53);
+}
+.h1cont{
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-style: normal;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+.h1cont:hover{
+    font-size: 1.4rem;
+}
+
+/* Форма */
+.headform{
+    background-color: rgb(241, 241, 241);
+    width: 300px;
+    height: 200px;
+    margin: 100px 10% 0 0;
+    box-shadow:  1px 1px 5px 1px rgb(43, 42, 42);
+    border-radius: 30px;
+}
+.place, .sub{
+    margin: 35px;
+    text-align: center;
+    text-decoration: none;
+}
+form input{
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid rgb(100,100,100);
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    color: rgb(78, 78, 78);
+}
+form input:hover, form input:focus{
+    background-color: rgb(228, 228, 228);
+	border-radius: 5px;
+    outline-color: rgb(228, 228, 228);
+    border: none;
+}
+.subbutt, .buttondiv button, .buttondiv input{
+    border: none;
+    border-radius: 25px;
+    background-color: rgb(85, 153, 85);
+    color: white;
+    transition: 0.5s;
+    font-size: 1.1rem;
+    height: 35px;
+    width: 180px;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 3px 1px rgb(10, 68, 10);
+}
+.subbutt:hover, .buttondiv button:hover, .buttondiv input:hover{
+    background-color:  rgb(56, 124, 56);
+    border-radius: 20px;
+}
+.subbutt:active, .buttondiv button:active, .buttondiv input:active {
+    background-color:  rgb(42, 88, 42);
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+/* Main */
+main{
+    width: 100%;
+    min-width: 1100px;
+    text-align: center;
+    box-shadow: 0 -1px 5px 1px rgb(43, 42, 42);
+}
+h3{
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: oblique;
+    padding: 30px 0 30px;
+}
+
+.indexcontent{
+    width: 80%;
+    min-width: 1100px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.promo{
+    margin: 25px 25px;
+}
+.promo div a img{
+    transition: 0.3s;
+}
+.promo div a img:hover{
+    opacity: 0.8;
+}
+.content{
+    width: 80%;
+    min-width: 1100px;
+    margin: auto;
+
+}
+.stringph{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+figcaption{
+    font-family: sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: oblique;
+}
+p, span  {
+    text-align: justify;
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+/* Каталог */
+    /* форма */
+.catalogform{
+    height: 230px;
+    width: 800px;
+    margin: 0 auto;
+    background-color: rgb(241, 241, 241);
+    position: relative;
+    top: -60px;
+    box-shadow: 0 1px 5px 1px rgb(43, 42, 42);
+}
+.catalogform form{
+    display: table-cell;
+}
+
+main form span, main form input,  main form ul, main form select, main form button{
+    margin-top: 10px;
+}
+.catalogform form{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.catalogform form p{
+    margin-top: 10px;
+}
+.firstcull, .nextcull{
+    text-align: left;
+}
+.firstcull input, .nextcull input{
+    width: 70px;
+}
+.buttondiv{
+    margin-top: 40px;
+}
+.catalogform p, .catalogform span, .catalogform h2{
+    color: rgb(73, 73, 73);
+}
+/* Каталог */
+.product{
+    text-align: left;
+}
+.catalog{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.catalog img{
+    width: 350px;
+    height: 300px;
+    transition: 0.5s;
+}
+.scroldiv{
+    overflow: hidden;
+    width: 350px;
+    height: 300px;
+    float: left;
+    margin-right: 10px;
+    box-shadow: 0 1px 5px 1px rgb(43, 42, 42);
+    margin-top: 5px;
+}
+.catalog img:hover{
+    transform: scale(1.1,1.1);
+}
+.product{
+    margin: 40px 0px;
+}
+.offer, .adressdiv{
+    margin: 10px 0px;
+}
+.product-desc{
+    font-weight: bold;
+}
+.product a{
+    color: black;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+/* Подвал */
+footer{
+    background-color: rgb(41, 41, 41);
+}
+.footbox{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    min-width: 1100px;
+    height: 200px;
+    margin: 0 auto;
+    padding: 30px;
+    justify-content: space-around;
+
+}
+li{
+    list-style-type: none;
+    font-family: sans-serif;
+    font-variant: small-caps;
+}
+footer div ul li{
+    color: white;
+    margin-top: 10px;
+    font-style: italic;
+}
+footer div ul li a{
+    color: white;
+}
+

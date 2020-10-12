@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 500px)" href="css/mobile.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+        <header class="container">
+            <div class="mainhead">
+                <div>
+                    <a class="homeh" href="index.html"><img src="img/mainlnk.png" alt="Тут картинка"></a>
+                </div>
+                <nav>
+                    
+                    <a class="h1cont" href="index.html">New estate</a>
+                    <a href="about.html">О нас</a>
+                    <a href="catalog.html">Каталог</a>
+                    <a href="service.html">Услуги</a>
+                    <a href="contact.html">Контакты</a>
+                    
+                </nav>
+            </div>
+        </header>
+        <div class=headbg>
+
+        </div>
+        <main class="container">
+                <div class="catalogform">
+                    <h2>поиск по каталогу</h2>
+                    <form>
+                        <div class="firstcull">
+                            <span>общая площадь:</span><input class="fs" type="text" pattern="^[ 0-9]+$"  id="S"><span>м<sup>2</sup></span>
+                            <p>цена</p>
+                            <span>от:</span><input type="text"  pattern="^[ 0-9]+$" id="minprice"><span>до:</span><input type="text" pattern="^[ 0-9]+$"  id="maxprice"><br>
+                            <span>район</span>
+                            <select>
+                                <option>север</option>
+                                <option>юг</option>
+                                <option>запад</option>
+                                <option>восток</option>
+                            </select><br>
+                        </div> 
+                        <div class="nextcull">
+                            <ul>
+                                <li><input type="checkbox" id="stur"><span>студия</span></li>                            
+                                <li><input type="checkbox" id="1r"><span>1-комнатная</span></li>
+                                <li><input type="checkbox" id="2r"><span>2-х комнатная</span></li>
+                                <li><input type="checkbox" id="3r"><span>3-х комнатная</span></li>
+                                <li><input type="checkbox" id="4r"><span>4-х комнатная</span></li>
+                            </ul>                           
+                        </div>
+                        <div class="buttondiv">
+                            <button>найти</button><br>
+                            <input type="reset" value="сбросить">
+                        </div> 
+                    </form>
+                </div>
+                <div>
+                    <h3>Каталог</h3>
+                </div>
+                <h2>Вторичная недвижимость</h2>
+                <div class="catalog">
+                        <div class="product">
+                            <a href="#"><h2 class="product-name">Двухкомнатная квартира</h2></a>
+                           
+                            <span class="product-desc">Описание квартиры</span>
+                           
+                            <div class=scroldiv><a href="#"><img src="/img/r1.jpg" class="product-img" alt="Картинка"></a></div>
+                           
+                            <div class="offer">
+                            <span class="product-price"><a href="#">11000000</a></span>
+                            <span class="product-price-currency">RUB</span>
+                            </div>
+                            <div class="adressdiv">
+                            <span class="product-address"><a href="#">ул.Победы</a></span><br>
+                            <span class="product-map"><a href="#">Показать на карте</a></span>
+                            </div>
+                            <span class="product-rooms"><a href="#">2-х комнатная</a></span><br>
+                            <span class="product-square"><a href="#">45 кв.м.</a></span><br>
+                            <span class="product-type-house"><a href="#">Кирпичный</a></span><br>
+                            <span class="product-level"><a href="#">4 этаж</a></span>
+                        </div>
+                        <div class="product">
+                            <a href="#"><h2 class="product-name">Двухкомнатная квартира</h2></a>
+                           
+                            <span class="product-desc">Описание квартиры</span>
+                           
+                            <div class=scroldiv><a href="#"><img src="/img/r2.jpg" class="product-img" alt="Картинка"></a></div>
+                           
+                            <div class="offer">
+                            <span class="product-price"><a href="#">98000000</a></span>
+                            <span class="product-price-currency">RUB</span>
+                            </div>
+                            <div class="adressdiv">
+                            <span class="product-address"><a href="#">ул.Какая-то</a></span><br>
+                            <span class="product-map"><a href="#">Показать на карте</a></span>
+                            </div>
+                            <span class="product-rooms"><a href="#">2-х комнатная</a></span><br>
+                            <span class="product-square"><a href="#">40 кв.м.</a></span><br>
+                            <span class="product-type-house"><a href="#">Панельный</a></span><br>
+                            <span class="product-level"><a href="#">2 этаж</a></span><br>
+                        </div>
+                        <div class="product">
+                            <a href="#"><h2 class="product-name">Трехкомнатная квартира</h2></a>
+                           
+                            <span class="product-desc">Описание квартиры</span>
+                           
+                            <div class=scroldiv><a href="#"><img src="/img/r3.jpg" class="product-img" alt="Картинка"></a></div>
+                           
+                            <div class="offer">
+                            <span class="product-price"><a href="#">15200000</a></span>
+                            <span class="product-price-currency">RUB</span>
+                            </div>
+                            <div class="adressdiv">
+                            <span class="product-address"><a href="#">ул.Такая-то</a></span><br>
+                            <span class="product-map"><a href="#">Показать на карте</a></span>
+                            </div>
+                            <span class="product-rooms"><a href="#">3-х комнатная</a></span><br>
+                            <span class="product-square"><a href="#">45 кв.м.</a></span><br>
+                            <span class="product-type-house"><a href="#">Кирпичный</a></span><br>
+                            <span class="product-level"><a href="#">7 этаж</a></span><br>
+                        </div>
+                        <div class="product">
+                            <a href="#"><h2 class="product-name">Студия</h2></a>
+                           
+                            <span class="product-desc">Описание квартиры</span>
+                           
+                            <div class=scroldiv><a href="#"><img src="/img/r6.jpg" class="product-img" alt="Картинка"></a></div>
+                           
+                            <div class="offer">
+                            <span class="product-price"><a href="#">4500000</a></span>
+                            <span class="product-price-currency">RUB</span>
+                            </div>
+                            <div class="adressdiv">
+                            <span class="product-address"><a href="#">ул.Поражения</a></span><br>
+                            <span class="product-map"><a href="#">Показать на карте</a></span>
+                            </div>
+                            <span class="product-rooms"><a href="#">студия</a></span><br>
+                            <span class="product-square"><a href="#">30 кв.м.</a></span><br>
+                            <span class="product-type-house"><a href="#">Панельный</a></span><br>
+                            <span class="product-level"><a href="#">5 этаж</a></span><br>
+                        </div>
+                        <div class="product">
+                            <a href="#"><h2 class="product-name">Двухкомнатная квартира</h2></a>
+                           
+                            <span class="product-desc">Описание квартиры</span>
+                           
+                            <div class=scroldiv><a href="#"><img src="/img/r5.jpg" class="product-img" alt="Картинка"></a></div>
+                           
+                            <div class="offer">
+                            <span class="product-price"><a href="#">9000000</a></span>
+                            <span class="product-price-currency">RUB</span>
+                            </div>
+                            <div class="adressdiv">
+                            <span class="product-address"><a href="#">ул.Победы</a></span><br>
+                            <span class="product-map"><a href="#">Показать на карте</a></span>
+                            </div>
+                            <span class="product-rooms"><a href="#">2-х комнатная</a></span><br>
+                            <span class="product-square"><a href="#">39 кв.м.</a></span><br>
+                            <span class="product-type-house"><a href="#">Кирпичный</a></span><br>
+                            <span class="product-level"><a href="#">1 этаж</a></span><br>
+                        </div>
+                        <div class="product">
+                            <a href="#"><h2 class="product-name">Четырехкомнатная квартира</h2></a>
+                           
+                            <span class="product-desc">Описание квартиры</span>
+                           
+                            <div class=scroldiv><a href="#"><img src="/img/r4.jpg" class="product-img" alt="Картинка"></a></div>
+                           
+                            <div class="offer">
+                            <span class="product-price"><a href="#">20000000</a></span>
+                            <span class="product-price-currency">RUB</span>
+                            </div>
+                            <div class="adressdiv">
+                            <span class="product-address"><a href="#">ул.Победы</a></span><br>
+                            <span class="product-map"><a href="#">Показать на карте</a></span>
+                            </div>
+                            <span class="product-rooms"><a href="#">4-х комнатная</a></span><br>
+                            <span class="product-square"><a href="#">60 кв.м.</a></span><br>
+                            <span class="product-type-house"><a href="#">Панельный</a></span><br>
+                            <span class="product-level"><a href="#">6 этаж</a></span><br>
+                        </div>
+                </div>
+            </main>
+            <footer class="container">
+            <div class="footbox">
+                <ul class="foot">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="about.html">О нас</a></li>
+                    <li><a href="catalog.html">Каталог</a></li>
+                    <li><a href="service.html">Услуги</a></li>
+                    <li><a href="contact.html">Контакты</a></li>
+                </ul>
+                <ul class="foot">
+                    <li><h4>Как с нами связаться</h4></li>
+                    <li><p>Адрес: г.Москва, ул.Пушкина, д. Колотушкина</p></li>
+                    <li><a href="mailto:newestate@nemail.ne">Newestate@nemail.ne</a></li>
+                    <li><a href="tel:88000000000">88000000000</a></li>             
+                </ul>
+                <div class="foot">
+                    <button class="subbutt" id="requestf">Оставить заявку</button>
+                </div>
+            </div>
+        </footer> 
+</body>
+</html>
