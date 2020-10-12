@@ -9,98 +9,86 @@
     <script src="js/script.js"></script>
 </head>
 <body>
-    <div>
-        <header>
-            <div>
-                <h1>New estate</h1>
-            </div>
-            <div>
+    <!-- https://www.templatemonsterpreview.com/ru/demo/52815.html?_ga=2.164468412.2032681534.1602335502-1994470942.1602335502 -->
+        <header class="container">
+            <div class="mainhead">
                 <div>
-                    <a href="index.html"><img src="img/mainlnk.png" alt="Тут картинка"></a>
+                    <a class="homeh" href="index.html"><img src="img/mainlnk.png" alt="Тут картинка"></a>
                 </div>
                 <nav>
-                    <div>
-                    <a href="index.html">Главная</a>
+                    
+                    <a class="h1cont" href="index.html">New estate</a>
                     <a href="about.html">О нас</a>
                     <a href="catalog.html">Каталог</a>
                     <a href="service.html">Услуги</a>
                     <a href="contact.html">Контакты</a>
-                    </div>
+                    
                 </nav>
             </div>
         </header>
-        <main>
-            <div>
+        <div class=headbg>
+            <form class="headform" target="#">
                 <div>
-                    <div>
-                        <form target="#">
-                            <div>
-                            <input type="text" placeholder="Имя" id="name" required>
-                            </div>
-                            <div>
-                            <input type="text" placeholder="8XXXXXXXXXX" name="tel" pattern="[0-9]{11}" >
-                            </div>
-                            <input type="submit" value="Заказать звонок">
-                        </form>
+                    <div class="place">
+                    <input  type="text" placeholder="Имя" id="name" required>
                     </div>
-                    <div>
-                        <button id="request">Оставить заявку</button>
+                    <div class="place">
+                    <input  type="text" placeholder="8XXXXXXXXXX" name="tel" pattern="[0-9]{11}" >
+                    </div >
+                    <div class="sub">
+                    <input class="subbutt" type="submit" value="заказать звонок">
                     </div>
-                    <div>
-
-                    </div>
-
                 </div>
-                <div>
-                    <h3>Наши услуги</h3>
-                    <div>
+            </form>
+        </div>
+        <main class="container">
+                <h3>Наши услуги</h3>
+                <div class="indexcontent">
+                    <div class="promo">
                         <div>
                             <a href="service.html#sell">Продать</a>
                         </div>
                         <div>
-                            <a href="service.html#sell"><img src="img/nav1.jpg" alt="Продать"></a>                            
+                            <a href="service.html#sell"><img src="img/sell.jpg" alt="Продать"></a>                            
                         </div>
                     </div>
-                    <div>
+                    <div class="promo">
                         <div>
                             <a href="service.html#buy">Купить</a>
                         </div>
                         <div>
-                            <a href="service.html#buy"><img src="img/nav2.jpg" alt="Купить"></a>
+                            <a href="service.html#buy"><img src="img/by.jpg" alt="Купить"></a>
                         </div>
                     </div>
-                    <div>
+                    <div class="promo">
                         <div>
                             <a href="service.html#rent">Сдать Снять</a>
                         </div>
                         <div>
-                            <a href="service.html#rent"><img src="img/nav4.jpg" alt="Сдать"></a>
+                            <a href="service.html#rent"><img src="img/rent.jpg" alt="Сдать"></a>
                         </div>
                     </div>
                 </div>
-            </div>
         </main>
-        <footer>
-            <div>
-                <div>
-                    <a href="index.html">Главная</a>
-                    <a href="about.html">О нас</a>
-                    <a href="catalog.html">Каталог</a>
-                    <a href="service.html">Услуги</a>
-                    <a href="contact.html">Контакты</a>
-                </div>
-                <div>
-                    <h4>Как с нами связаться</h4>
-                    <p>Адрес: г.Москва, ул.Пушкина, д. Колотушкина</p>
-                    <a href="mailto:newestate@nemail.ne">Newestate@nemail.ne</a>
-                    <a href="tel:88000000000">88000000000</a>
-                    
-                </div>
-                <div>
-                    <button id="requestf">Оставить заявку</button>
+        <footer class="container">
+            <div class="footbox">
+                <ul class="foot">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="about.html">О нас</a></li>
+                    <li><a href="catalog.html">Каталог</a></li>
+                    <li><a href="service.html">Услуги</a></li>
+                    <li><a href="contact.html">Контакты</a></li>
+                </ul>
+                <ul class="foot">
+                    <li><h4>Как с нами связаться</h4></li>
+                    <li><p>Адрес: г.Москва, ул.Пушкина, д. Колотушкина</p></li>
+                    <li><a href="mailto:newestate@nemail.ne">Newestate@nemail.ne</a></li>
+                    <li><a href="tel:88000000000">88000000000</a></li>             
+                </ul>
+                <div class="foot">
+                    <button class="subbutt" id="requestf">Оставить заявку</button>
                 </div>
             </div>
         </footer>  
-    </div>
 </body>
 </html>
