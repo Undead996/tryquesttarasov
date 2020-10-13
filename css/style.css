@@ -132,6 +132,7 @@ main{
     min-width: 1100px;
     text-align: center;
     box-shadow: 0 -1px 5px 1px rgb(43, 42, 42);
+    padding-bottom: 40px;
 }
 h3{
     font-family: sans-serif;
@@ -183,6 +184,9 @@ p, span  {
     font-family: sans-serif;
     font-size: 1rem;
 }
+.tab{
+    margin-left: 40px;
+}
 /* Каталог */
     /* форма */
 .catalogform{
@@ -212,6 +216,7 @@ main form span, main form input,  main form ul, main form select, main form butt
 }
 .firstcull, .nextcull{
     text-align: left;
+    margin-top: 10px;
 }
 .firstcull input, .nextcull input{
     width: 70px;
@@ -260,11 +265,57 @@ main form span, main form input,  main form ul, main form select, main form butt
     font-weight: bold;
 }
 .product a{
-    color: black;
+    color: #000;
+}
+.product div a, .product span a{
+    color: rgb(64, 117, 53);
     font-weight: bold;
 }
-
-
+.product a:hover{
+    color:  rgb(42, 88, 42);
+}
+/* About */
+.empl{
+    background-color:rgb(230, 230, 230);
+    box-shadow: inset 0 -1px 5px 1px rgb(43, 42, 42);
+    margin-top: 40px;
+}
+.empl img{
+    box-shadow: 0 1px 5px 1px rgb(43, 42, 42);
+    margin-top: 10px;
+}
+/* Услуги */
+.service-first{
+    margin-top: 40px;
+    background-color: rgb(230, 230, 230);
+    width: 900px;
+    border-radius: 20px;
+    box-shadow: 0 1px 5px 1px rgb(43, 42, 42);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.service-first:hover{
+    transform: matrix(1, 0, 0, 1.1, 150, 0);
+    transition: 0.3s;
+}
+.service-first h3, .service-content li{
+    padding: 5px;
+}
+.service-content{
+    text-align: left;
+    margin-left: 3%;
+}
+.ts, .tsalt{
+    margin-top: 18px;
+    margin-right: 10%;
+}
+.tsalt{
+    margin-top: 7px;
+}
+.ts img{
+    border-radius: 50%;
+}
 
 
 
