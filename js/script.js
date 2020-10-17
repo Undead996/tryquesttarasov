@@ -1,21 +1,18 @@
-let slidenumber = 1;
-
-function nextslide(n) {
-  showslides(slidenumber += n);
-}
-
-function showslides(n) {
-  let i;
+  nextslide = function(n){
+  showslides(slidenumber = slidenumber + n);
+  }
+  let slidenumber = 0;
+  function showslides(n) {
   let slides = document.getElementsByClassName("promo");
-  if (n > slides.length) {
-      slidenumber = 1;
+  if (n >= slides.length) {
+      slidenumber = 0;
     }
-  if (n < 1) {
-      slidenumber = slides.length
+  if (n < 0) {
+      slidenumber = slides.length-1;
     }
-  for (i = 0; i < slides.length; i++) {
+  for (let i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";
   }
-
-  return slides[slidenumber-1].style.display = "block";
+  return  slides[slidenumber].style.display = "block", slidenumber;
 }
+

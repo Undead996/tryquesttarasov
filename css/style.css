@@ -1,9 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 *{
     margin:0;
     padding: 0;
     box-sizing: border-box;
 }
-@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 a{
     text-decoration: none;
 
@@ -85,7 +85,7 @@ nav a:hover, .product a:hover, .product a:hover, .next:hover, .prev:hover{
     box-shadow:  1px 1px 5px 1px rgb(43, 42, 42);
     border-radius: 30px;
 }
-.place, .sub{
+.place, .sub, textarea{
     margin: 35px;
     text-align: center;
     text-decoration: none;
@@ -305,6 +305,29 @@ main form span, main form input,  main form ul, main form select, main form butt
     color:  rgb(42, 88, 42);
 }
 /* About */
+.contactform{
+    background-color: rgb(241, 241, 241);
+    width: 800px;
+    height: 300px;
+    margin: auto;
+    box-shadow:  1px 1px 5px 1px rgb(43, 42, 42);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.contactform textarea{
+    width:330px;
+    height: 150px;
+    text-align: left;
+    font-size: 1.5rem;
+}
+.contactform .sub{
+    margin:10px;
+}
+.contactform .subbutt{
+    width: 200px;
+}
 .empl{
     background-color:rgb(230, 230, 230);
     box-shadow: inset 0 -1px 5px 1px rgb(43, 42, 42);
