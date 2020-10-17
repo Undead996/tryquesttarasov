@@ -1,4 +1,4 @@
-  nextslide = function(n){
+  function nextslide(n){
   showslides(slidenumber = slidenumber + n);
   }
   let slidenumber = 0;
