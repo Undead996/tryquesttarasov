@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
 *{
     margin:0;
     padding: 0;
@@ -50,30 +51,29 @@ nav{
 nav  a, .promotext{
     margin: 0px 30px;
     text-decoration: none;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     font-weight: bold;
     font-style: normal;
-    font-family: sans-serif;
-    text-transform: uppercase;
+    font-family:'Lato', sans-serif;
     transition: 0.7s; 
-    color: #000;
+    color: #46474a;
+    display: inline-block;
 }
 nav a:visited, .promo div a:visited{
-    color: #000;
+    color: #46474a;
 }
 nav a:hover, .product a:hover, .product a:hover, .next:hover, .prev:hover{
-    font-size: 1rem;
+    transform: scaleY(1.2);
     color: rgb(64, 117, 53);
 }
 .h1cont{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: bold;
     font-style: normal;
-    font-family: sans-serif;
-    text-transform: uppercase;
+    font-family: 'lato', sans-serif;
 }
 .h1cont:hover{
-    font-size: 1.4rem;
+    transform: scaleY(1.2);
 }
 
 /* Форма */
@@ -95,7 +95,7 @@ form input{
     background: transparent;
     border-bottom: 1px solid rgb(100,100,100);
     font-size: 1.2rem;
-    font-family: sans-serif;
+    font-family: 'lato', sans-serif;
     color: rgb(78, 78, 78);
 }
 form input:hover, form input:focus{
@@ -113,7 +113,6 @@ form input:hover, form input:focus{
     font-size: 1.1rem;
     height: 35px;
     width: 180px;
-    text-transform: uppercase;
     box-shadow: 1px 1px 3px 1px rgb(10, 68, 10);
 }
 .subbutt:hover, .buttondiv button:hover, .buttondiv input:hover{
@@ -134,12 +133,16 @@ main{
     margin: auto;
 }
 h3{
-    font-family:'Russo One', sans-serif;
+    font-family:'lato', sans-serif;
     font-size: 1.5rem;
-    text-transform: uppercase;
     font-weight: bold;
     font-style: oblique;
     padding: 30px 0 30px;
+    color: #46474a;;
+}
+h2, p{
+    font-family:'lato', sans-serif;
+    color: #46474a;;
 }
 /* Карусель */
 .indexcontent{
@@ -200,15 +203,14 @@ h3{
     padding: 20px 0;
 }
 figcaption{
-    font-family: sans-serif;
+    font-family: 'lato', sans-serif;
     font-size: 1rem;
-    text-transform: uppercase;
     font-weight: bold;
     font-style: oblique;
 }
 p, span  {
     text-align: justify;
-    font-family: sans-serif;
+    font-family: 'lato', sans-serif;
     font-size: 1rem;
 }
 .tab{
@@ -248,11 +250,11 @@ main form span, main form input,  main form ul, main form select, main form butt
 .firstcull input, .nextcull input{
     width: 70px;
 }
-.buttondiv{
-    margin-top: 40px;
-}
 .catalogform p, .catalogform span, .catalogform h2{
     color: rgb(73, 73, 73);
+}
+.formblock{
+    padding: 30px;
 }
 /* Каталог */
 .product{
@@ -295,7 +297,7 @@ main form span, main form input,  main form ul, main form select, main form butt
     font-weight: bold;
 }
 .product a{
-    color: #000;
+    color:#46474a;
 }
 .product div a, .product span a{
     color: rgb(64, 117, 53);
@@ -315,6 +317,21 @@ main form span, main form input,  main form ul, main form select, main form butt
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+.buttondiv{
+    margin-top: 20px;
+}
+.formblockleft .place, .formblock .sub, .formblock textarea{
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+.formblock, .formblockleft{
+    padding: 20px;
+
+}
+.formblockleft{
+    margin-top: 40px;
 }
 .contactform textarea{
     width:330px;
@@ -390,7 +407,7 @@ footer{
 }
 li{
     list-style-type: none;
-    font-family: sans-serif;
+    font-family: 'lato',sans-serif;
     font-variant: small-caps;
 }
 footer div ul li{
@@ -398,7 +415,7 @@ footer div ul li{
     margin-top: 10px;
     font-style: italic;
 }
-footer div ul li a{
+footer div ul li a, footer p{
     color: white;
 }
 
