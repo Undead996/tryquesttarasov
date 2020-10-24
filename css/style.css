@@ -29,7 +29,7 @@ header{
     position: sticky;
     top: 0px;
 }
-.headbg{
+.headbg, .headbgcontact{
     background-color: white;
     height: 350px;
     display: flex;
@@ -43,7 +43,9 @@ header{
     transform: rotate(1440deg);
     transition: 20s;
 }
-
+.mobilewarp{
+    display: none;
+}
 
 nav{
     margin-top: 30px;
@@ -219,8 +221,7 @@ p, span  {
 /* Каталог */
     /* форма */
 .catalogform{
-    height: 230px;
-    width: 800px;
+    width: 100%;
     margin: 0 auto;
     background-color: rgb(241, 241, 241);
     position: relative;
@@ -266,7 +267,7 @@ main form span, main form input,  main form ul, main form select, main form butt
     background-color: rgb(220, 220, 220);
 }
 .catalog{
-    width:1024px;
+    width:100%;
     margin: auto;
     display: flex;
     flex-direction: row;

@@ -1,3 +1,4 @@
+
   function nextslide(n){
   showslides(slidenumber = slidenumber + n);
   }
@@ -15,4 +16,23 @@
   }
   return  slides[slidenumber].style.display = "block", slidenumber;
 }
+
+
+function test(){
+  let btn = document.querySelector(".mob")
+  let mobileNav = document.querySelector(".warpul");
+  btn.addEventListener('click', function(){
+      if(mobileNav.style.display == "block"){
+        mobileNav.style.display = "none"
+      }else{mobileNav.style.display = "block"}
+  }
+  )
+  let bd = document.querySelector("body")
+  bd.addEventListener('click', function(ev){
+    let target = ev.target || ev.srcElement;
+    if(target.nodeName !== "IMG"){
+      mobileNav.style.display = "none"}
+  })
+}
+
 

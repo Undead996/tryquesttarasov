@@ -1,0 +1,124 @@
+.mainhead{
+    width: 100%;
+    justify-content: right;
+}
+.headbg{
+    height: 250px;
+}
+.headform{
+    margin: 25px auto;
+}
+.mainhead div:first-child{
+    display: none;
+}
+.mainhead nav{
+    display: none;
+}
+.mobilewarp{
+    display: block;
+}
+.mobilewarp img{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.mobilewarp img:active{
+    background-color: rgb(225, 225, 225);
+}
+.mobilewarp div{
+    display: inline-block;
+    margin-top: 0px;
+    margin-left: 50px;
+}
+.mobilewarp div h2{
+    font-size: 3rem;
+    padding-bottom: 10px;
+}
+.warpul{
+    position: absolute;
+    top: 55px;
+    left: 0;
+    margin-left: 20px;
+    background-color: rgb(225, 225, 225);
+    z-index: 6;
+    border-radius:10px;
+    display: none;
+}
+.warpul li{
+    font-size: 3rem;
+    font-weight: bold;
+    font-style: normal;
+    font-family:'Lato', sans-serif;
+    color: #46474a;
+    margin: 10px;
+}
+.warpul li a{
+    margin: 2px;
+}
+.warpul li a:visited{
+    color: #46474a;
+}
+main{
+    width: 100%;
+}
+.indexcontent{
+    width: 100%;
+}
+.promo img{
+    width: 400px;
+    height: 250px;
+}
+
+.footbox{
+    width: 100%;
+}
+.footbox ul:first-child, .footbox div{
+    display: none;
+}
+.formcont{
+    width: 70%;
+}
+.catalogform form{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.firstcull, .nextcull, .buttondiv{
+    margin: auto;
+}
+.buttondiv{
+    margin-bottom: 10px;
+}
+.catalog img{
+    width: 300px;
+    height: 270px;
+}
+.scroldiv{
+    width: 300px;
+    height: 270px;
+}
+.product{
+    padding: 10px;
+}
+.stringph{
+    flex-wrap: wrap;
+}
+.content{
+    width: 100%;
+}
+.service-first{
+    width: 96%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 3px;
+}
+.headbgcontact{
+    height: auto;
+}
+.contactform{
+    width: 100%;
+    flex-wrap: wrap;
+    height: auto;
+}
+.contactform textarea{
+    width: 300px;
+}
