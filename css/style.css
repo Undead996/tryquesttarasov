@@ -61,7 +61,7 @@ nav  a, .promotext{
     color: #46474a;
     display: inline-block;
 }
-nav a:visited, .promo div a:visited{
+nav a:visited, .promo div a:visited {
     color: #46474a;
 }
 nav a:hover, .product a:hover, .product a:hover, .next:hover, .prev:hover{
@@ -306,6 +306,16 @@ main form span, main form input,  main form ul, main form select, main form butt
 }
 .product a:hover{
     color:  rgb(42, 88, 42);
+}
+.b{
+    margin-top: 10px;
+}
+.catalognav ul li{
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-style: normal;
+    font-family:'Lato', sans-serif;
 }
 /* About */
 .contactform{
