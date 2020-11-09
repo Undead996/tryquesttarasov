@@ -260,33 +260,31 @@ main form span, main form input,  main form ul, main form select, main form butt
 /* Каталог */
 .product{
     text-align: left;
-    padding: 40px;
+    padding: 20px;
     border-radius: 20px;
-    margin: 40px 20px;
-    width: 100%;
+    margin: 20px 10px;
     background-color: rgb(220, 220, 220);
+    display: inline-block;
 }
 .catalog{
     width:100%;
     margin: auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
 }
 .catalog img{
-    width: 450px;
-    height: 400px;
+    width: 250px;
+    height: 200px;
     transition: 0.5s;
 }
 .scroldiv{
     overflow: hidden;
-    width: 450px;
-    height: 400px;
-    float: left;
+    width: 250px;
+    height: 200px;
     margin-right: 10px;
     box-shadow: 0 1px 5px 1px rgb(43, 42, 42);
     margin-top: 5px;
+}
+.product-name{
+    font-size: 1rem;
 }
 .catalog img:hover{
     transform: scale(1.1,1.1);
@@ -316,6 +314,37 @@ main form span, main form input,  main form ul, main form select, main form butt
     font-weight: bold;
     font-style: normal;
     font-family:'Lato', sans-serif;
+    margin: 10px 2px;
+}
+.enable{
+    border: 2px solid #fc8816;
+    border-radius: 6px;
+    margin-left: 8px;
+    font-size: 16px;
+    color: #fc8816;
+    padding: 10px;
+    transition: 0.5s;
+}
+.enable:hover{
+    color: white;
+    background-color: #fc8816;
+}
+.active{
+    color: white;
+    background-color: #fc8816;
+}
+.dis{
+    border: 2px solid rgb(199, 199, 199);
+    border-radius: 6px;
+    margin-left: 8px;
+    font-size: 16px;
+    padding: 10px;
+    transition: 0.5s;
+    color:rgb(199, 199, 199);
+}
+.dis:hover{
+    color: rgb(199, 199, 199);
+    background-color: transparent;
 }
 /* About */
 .contactform{
