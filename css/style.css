@@ -83,13 +83,14 @@ nav a:hover, .product a:hover, .product a:hover, .next:hover, .prev:hover, .hide
     position: absolute;
     top: 95%;
     box-shadow: 0 1px 5px 1px rgb(43, 42, 42);
-    border-radius: 10px;
+    border-radius: 2px;
     display: none;
 }
 .hide ul{
-    margin: 10px 20px;
-    font-size: 1rem;
+    margin: 10px 15px;
+    font-size: 0.8rem;
 }
+
 
 
 
