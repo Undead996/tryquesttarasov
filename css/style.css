@@ -50,7 +50,7 @@ header{
 nav{
     margin-top: 30px;
 }
-nav  a, .promotext{
+nav  a, .promotext, .hide a{
     margin: 0px 30px;
     text-decoration: none;
     font-size: 1.2rem;
@@ -61,11 +61,11 @@ nav  a, .promotext{
     color: #46474a;
     display: inline-block;
 }
-nav a:visited, .promo div a:visited {
+nav a:visited, .promo div a:visited, .hide a:visited{
     color: #46474a;
 }
-nav a:hover, .product a:hover, .product a:hover, .next:hover, .prev:hover{
-    transform: scaleY(1.2);
+nav a:hover, .product a:hover, .product a:hover, .next:hover, .prev:hover, .hide a:hover{
+    transform: scaleY(1.1);
     color: rgb(64, 117, 53);
 }
 .h1cont{
@@ -75,8 +75,23 @@ nav a:hover, .product a:hover, .product a:hover, .next:hover, .prev:hover{
     font-family: 'lato', sans-serif;
 }
 .h1cont:hover{
-    transform: scaleY(1.2);
+    transform: scaleY(1.1);
 }
+.hide {
+    width: 1024px;
+    background-color: rgb(241, 241, 241);
+    position: absolute;
+    top: 95%;
+    box-shadow: 0 1px 5px 1px rgb(43, 42, 42);
+    border-radius: 10px;
+    display: none;
+}
+.hide ul{
+    margin: 10px 20px;
+    font-size: 1rem;
+}
+
+
 
 /* Форма */
 .headform{

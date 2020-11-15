@@ -4,7 +4,7 @@
   }
   let slidenumber = 0;
   function showslides(n) {
-  let slides = document.getElementsByClassName("promo");
+  let slides = document.querySelectorAll(".promo");
   if (n >= slides.length) {
       slidenumber = 0;
     }
@@ -33,6 +33,18 @@ function test(){
     if(target.nodeName !== "IMG"){
       mobileNav.style.display = "none"}
   })
+
+
+  let catNav = document.querySelector(".hide")
+  let cat = document.querySelector("#n3");
+  cat.addEventListener("mouseover", function(){
+    catNav.style.display = "block"
+  })
+  bd.addEventListener("click", function(){
+    catNav.style.display = "none"
+  })
+  
 }
+
 
 
