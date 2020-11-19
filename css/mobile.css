@@ -6,6 +6,7 @@
     height: 250px;
 }
 .headform{
+    position: static;
     margin: 25px auto;
 }
 .mainhead div:first-child{

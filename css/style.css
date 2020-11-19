@@ -33,7 +33,6 @@ header{
     background-color: white;
     height: 350px;
     display: flex;
-    flex-direction: row-reverse;
     background-image: url("../img/bg.jpg");
 }
 .homeh{
@@ -99,9 +98,11 @@ nav a:hover, .product a:hover, .product a:hover, .next:hover, .prev:hover, .hide
     background-color: rgb(241, 241, 241);
     width: 300px;
     height: 200px;
-    margin: 100px 10% 0 0;
+    margin: 100px auto;
     box-shadow:  1px 1px 5px 1px rgb(43, 42, 42);
     border-radius: 30px;
+    position: relative;
+    left: 250px;
 }
 .place, .sub, textarea{
     margin: 35px;
@@ -389,7 +390,9 @@ main form span, main form input,  main form ul, main form select, main form butt
 }
 .formblock, .formblockleft{
     padding: 20px;
-
+}
+.formblock textarea{
+    padding: 10px;
 }
 .formblockleft{
     margin-top: 40px;
@@ -415,19 +418,26 @@ main form span, main form input,  main form ul, main form select, main form butt
     box-shadow: 0 1px 5px 1px rgb(43, 42, 42);
     margin-top: 10px;
 }
+.cont p{
+    text-align: center;
+    width: 600px;
+    margin: auto;
+}
+.iframemap, .iframemap iframe{
+    width: 100%;
+    height: 800px;
+}
 /* Услуги */
 .service-first{
-    margin-top: 40px;
     background-color: rgb(230, 230, 230);
-    width: 900px;
+    width: 250px;
     border-radius: 20px;
     box-shadow: 0 1px 5px 1px rgb(43, 42, 42);
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
 }
 .service-first:hover{
-    transform: matrix(1, 0, 0, 1.1, 110, 0);
+    transform: matrix(1, 0, 0, 1.1, 20, 0);
     transition: 0.3s;
 }
 .service-first h3, .service-content li{
@@ -441,11 +451,15 @@ main form span, main form input,  main form ul, main form select, main form butt
     margin-top: 18px;
     margin-right: 10%;
 }
-.tsalt{
-    margin-top: 7px;
-}
 .ts img{
     border-radius: 50%;
+}
+.serv{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 900px;
 }
 
 
